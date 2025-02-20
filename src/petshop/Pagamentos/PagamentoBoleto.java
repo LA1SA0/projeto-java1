@@ -1,7 +1,9 @@
-package petshop.model;
+package petshop.Pagamentos;
 
-public class PagamentoBoleto extends Pagamento {
-    private String codigoBoleto;
+import petshop.Pagamentos.Pagamento;
+
+public class PagamentoBoleto extends Pagamento{
+	private String codigoBoleto;
 
     public PagamentoBoleto(String codigoBoleto) {
         this.codigoBoleto = codigoBoleto;
@@ -12,6 +14,3 @@ public class PagamentoBoleto extends Pagamento {
         System.out.println("Pagamento de R$ " + valor + " realizado com sucesso via Boleto Bancário.");
     }
 }
-
-	
-

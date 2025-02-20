@@ -1,8 +1,8 @@
-package petshop.model;
+package petshop.Produtos;
 
 import petshop.model.Cliente;
-import petshop.model.Produto;
-import petshop.model.Pagamento;
+import petshop.Produtos.Produto;
+import petshop.Pagamentos.Pagamento;
 
 public class Pedido {
     private Cliente cliente;

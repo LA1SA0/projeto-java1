@@ -1,7 +1,7 @@
-package petshop.model;
+package petshop.Pagamentos;
 
 public class PagamentoCartao extends Pagamento {
-    private String numeroCartao;
+	private String numeroCartao;
 
     public PagamentoCartao(String numeroCartao) {
         this.numeroCartao = numeroCartao;
@@ -12,4 +12,5 @@ public class PagamentoCartao extends Pagamento {
         System.out.println("Pagamento de R$ " + valor + " realizado com sucesso via Cartão de Crédito.");
     }
 }
+
 
